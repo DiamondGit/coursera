@@ -1,0 +1,75 @@
+
+body{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    background-color: rgb(255, 176, 57);
+}
+.navbar{
+    background-color: grey;
+    border-bottom: 3px solid black;
+    padding: 0;
+}
+.navbar-brand{
+    margin-left: 30px;
+    color: black;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.navbar-brand:hover{
+    color: black;
+}
+#menu-header{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.menu-section > div{
+    float: left;
+}
+.menu-section-item{
+    color: darkgrey;
+    font-size: 1.2em;
+    background-color: rgb(37, 28, 19);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.menu-section-item h3{
+    text-align: center;
+    font-weight: bold;
+}
+.menu-section-item p{
+    text-indent: 20px;
+}
+.menu-section-item p a{
+    text-decoration: none;
+}
+.navbar-collapse{
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgb(100,100,100);
+}
+.navbar-collapse .navbar-nav{
+    width: 100%;
+}
+.navbar-collapse .navbar-nav li{
+    border-top: 2px solid black;
+}
+.navbar-collapse .navbar-nav li a{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+}
+.navbar-collapse .navbar-nav a:hover{
+    color: rgb(255, 176, 57);
+}
+.navbar-light .navbar-toggler{
+    color: black;
+    border: 1px solid black;
+    margin-right: 20px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+@media (min-width: 767px){
+    .navbar-light .navbar-toggler{
+        visibility: hidden;
+    }
+}
